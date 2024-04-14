@@ -9,10 +9,10 @@ export default function Projects({ title1, title2 }) {
       <BoxContent>
         <p className="details gap-between">
           Cattle trust website
-          <a className="certificates-link" target='_blank' href="https://zaid-sinpie.github.io/Greedy-Game/">
+          <a className="certificates-link" target='_blank' href="https://zaid-sinpie.github.io/Gaushala_website/">
             Show Prototype
           </a>
-          <a className="certificates-link" target='_blank' href="https://github.com/zaid-sinpie/Greedy-Game">
+          <a className="certificates-link" target='_blank' href="https://github.com/zaid-sinpie/Gaushala_website">
             Github Repo
           </a>
         </p>

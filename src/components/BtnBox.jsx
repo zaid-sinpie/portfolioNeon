@@ -2,59 +2,23 @@ import Buttons from "./Buttons.jsx";
 import React, { useRef } from "react";
 
 export default function BtnBox({ name }) {
-
-  const educationRef = useRef(null);
-  const skillsRef = useRef(null);
-  const certificatesRef = useRef(null);
-  const projectsRef = useRef(null);
-  const uiDesignsRef = useRef(null);
-
-  function scrollToRef(ref) {
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }
-
-  function highlight(e, buttonName) {
-    console.log(buttonName);
-    switch (buttonName) {
-      case "EDUCATION":
-        scrollToRef(educationRef);
-        break;
-      case "SKILLS":
-        scrollToRef(skillsRef);
-        break;
-      case "CERTIFICATES":
-        scrollToRef(certificatesRef);
-        break;
-      case "PROJECTS":
-        scrollToRef(projectsRef);
-        break;
-      case "UI DESIGNS":
-        scrollToRef(uiDesignsRef);
-        break;
-      default:
-        break;
-    }
-  }
-
   return (
     <div className={name}>
-      <Buttons id="education" name="btn border font" select={(e) => highlight(e, "EDUCATION")}>
+      <Buttons id="education" name="btn border font">
         EDUCATION
       </Buttons>
-      <Buttons id="skills" name="btn border font" select={(e) => highlight(e, "SKILLS")}>
+      <Buttons id="skills" name="btn border font">
         SKILLS
       </Buttons>
-      <Buttons id="certificates" name="btn border font" select={(e) => highlight(e, "CERTIFICATES")}>
+      <Buttons id="certificates" name="btn border font">
         CERTIFICATES
       </Buttons>
-      <Buttons id="projects" name="btn border font" select={(e) => highlight(e, "PROJECTS")}>
+      <Buttons id="projects" name="btn border font">
         PROJECTS
       </Buttons>
-      <Buttons id="uiDesigns" name="btn border font" select={(e) => highlight(e, "UI DESIGNS")}>
+      <Buttons id="uiDesigns" name="btn border font">
         UI DESIGNS
       </Buttons>
     </div>
-    )
+  );
 }

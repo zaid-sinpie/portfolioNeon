@@ -4,7 +4,7 @@ import Certificates from "./Certificates.jsx";
 import Projects from "./Projects.jsx";
 import UiDesigns from "./UiDesigns.jsx";
 
-export default function Content({ name,modalState, handleClick}) {
+export default function Content({ name,modalState}) {
   return (
     <main className={name}>
       <Education title={"EDUCATION"} />
@@ -13,7 +13,7 @@ export default function Content({ name,modalState, handleClick}) {
         title1={"INTERPERSONAL SKILLS"}
         title2={"LANGUAGES"}
       />
-      <Certificates title={"CERTIFICATIONS"} handleClick={() => handleClick()} modalState={modalState}></Certificates>
+      <Certificates title={"CERTIFICATIONS"} modalState={modalState}></Certificates>
       <Projects title1={"FRONTEND PROJECTS"} title2={"IOT PROJECTS"}></Projects>
       <UiDesigns title={"UI DESIGNS"}></UiDesigns>
     </main>

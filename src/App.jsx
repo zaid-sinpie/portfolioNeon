@@ -7,22 +7,16 @@ import Social from "./components/Social.jsx";
 import Content from "./components/Content.jsx";
 import Overlay from "./components/Overlay.jsx";
 import Modal from "./components/Modal.jsx";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState,useEffect, useRef } from "react";
 
 // certificate modal and overlay
 function App() {
   const [modalState, setModalState] = useState({
     open: false,
   });
-
-  function handleClick(id) {
-    setModalState((prevState) => ({
-      ...prevState,
-      [id]: !prevState[id],
-    }));
-  }
 
   useEffect(() => {
   const handleKeyPress = (event) => {
@@ -41,12 +35,11 @@ function App() {
   };
 }, [modalState, setModalState]);
 
-const toggleModalState = () => {
-  setModalState(modalState => !modalState)
-}
+//scroll function when button is clicked
 
   return (
     <Section>
+      <ToastContainer/>
       <Header name="header">
         <BtnBox name="btnBox" />
         <Info />

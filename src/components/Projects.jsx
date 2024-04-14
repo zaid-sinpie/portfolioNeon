@@ -8,6 +8,17 @@ export default function Projects({ title1, title2 }) {
       </div>
       <BoxContent>
         <p className="details gap-between">
+          Cattle trust website
+          <a className="certificates-link" target='_blank' href="https://zaid-sinpie.github.io/Greedy-Game/">
+            Show Prototype
+          </a>
+          <a className="certificates-link" target='_blank' href="https://github.com/zaid-sinpie/Greedy-Game">
+            Github Repo
+          </a>
+        </p>
+      </BoxContent>
+      <BoxContent>
+        <p className="details gap-between">
           Greedy Game
           <a className="certificates-link" target='_blank' href="https://zaid-sinpie.github.io/Greedy-Game/">
             Show Prototype
@@ -31,21 +42,21 @@ export default function Projects({ title1, title2 }) {
       <BoxContent>
         <p className="details gap-between">
           TIC-TAC-TOE Game
-          <a className="certificates-link" href="#">
+          <a target="_blank" className="certificates-link" href="https://master--zaid-sinpie-tictactoe.netlify.app/">
             Show Prototype
           </a>
-          <a className="certificates-link" href="#">
+          <a target="_blank" className="certificates-link" href="https://github.com/zaid-sinpie/TicTacToe">
             Github Repo
           </a>
         </p>
       </BoxContent>
       <BoxContent>
         <p className="details gap-between">
-          Website Homepage
-          <a className="certificates-link" href="#">
+          Morse Codec
+          <a target="_blank" className="certificates-link" href="https://zaid-sinpie-morse-codec.netlify.app/">
             Show Prototype
           </a>
-          <a className="certificates-link" href="#">
+          <a target="_blank" className="certificates-link" href="https://github.com/zaid-sinpie/moresCodec">
             Github Repo
           </a>
         </p>
@@ -61,24 +72,8 @@ export default function Projects({ title1, title2 }) {
           </a>
         </p>
       </BoxContent>
-      <BoxContent>
-        <p className="details gap-between">
-          Flappy Bird
-          <a className="certificates-link" href="#">
-            Github Repo
-          </a>
-        </p>
-      </BoxContent>
-      <BoxContent>
-        <p className="details gap-between">
-          Agriculture Monitoring System
-          <a className="certificates-link" href="#">
-            Github Repo
-          </a>
-        </p>
-      </BoxContent>
         <p className="details">
-        More projects are posted on Github <a href="#"className="certificates-link">Check out</a>
+        More projects are posted on Github <a target="_blank" href="https://github.com/zaid-sinpie"className="certificates-link">Check out</a>
         </p>
     </Box>
   );

@@ -1,6 +1,5 @@
 import BoxContent from "./BoxContent.jsx";
 import Box from "./Box.jsx";
-import CertificateModal from "./CertificateModal.jsx";
 
 export default function Certificates({ title, handleClick, modalState }) {
   return (
@@ -74,9 +73,10 @@ export default function Certificates({ title, handleClick, modalState }) {
         <p className="details gap-between">
           Infosys Internet of Things
           <a
+          target="_blank"
+          href="https://drive.google.com/file/d/13zEa7ITesIpsJLHiyzVDsv42eJSLeVLt/view?usp=sharing"
             className="certificates-link"
             id="infoIot"
-            onClick={() => handleClick("infoIot")}
           >
             Show Certificate
           </a>
@@ -86,9 +86,10 @@ export default function Certificates({ title, handleClick, modalState }) {
         <p className="details gap-between">
           Infosys High Impact Presentation
           <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1I-Uoke57WIlcchc6H5LDgebUy_0_EAt4/view?usp=sharing"
             className="certificates-link"
             id="infoHip"
-            onClick={() => handleClick("infoHip")}
           >
             Show Certificate
           </a>
@@ -98,9 +99,10 @@ export default function Certificates({ title, handleClick, modalState }) {
         <p className="details gap-between">
           Pantech Internet of Things
           <a
+          target="_blank"
+          href="https://drive.google.com/file/d/19Fi5v3OgRgJjidPv9BwkVVlqEYcpXqm7/view?usp=sharing"
             className="certificates-link"
             id="pantechIot"
-            onClick={() => handleClick("pantechIot")}
           >
             Show Certificate
           </a>
@@ -110,9 +112,10 @@ export default function Certificates({ title, handleClick, modalState }) {
         <p className="details gap-between">
           Kariavattom Cyber Forensics
           <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1-dA3KvChelH75TdVJ2bUU2T27AoY71PU/view?usp=sharing"
             className="certificates-link"
             id="cyberForensics"
-            onClick={() => handleClick("cyberForensics")}
           >
             Show Certificate
           </a>
@@ -122,16 +125,41 @@ export default function Certificates({ title, handleClick, modalState }) {
         <p className="details gap-between">
           WIT Bootcamp IOT & AWS
           <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1SecokaV8_7sC14UzVeCUhu8Sl-nDxGnQ/view?usp=sharing"
             className="certificates-link"
             id="witIotAws"
-            onClick={() => handleClick("witIotAws")}
           >
             Show Certificate
           </a>
         </p>
       </BoxContent>
-          <CertificateModal
-          />
+      <BoxContent>
+        <p className="details gap-between">
+          Fullstack Web development
+          <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1uKYv5tyHlCjk5xyoZngZjGC2NWKmNo6o/view?usp=sharing"
+            className="certificates-link"
+            id="fullstack"
+          >
+            Show Certificate
+          </a>
+        </p>
+      </BoxContent>
+      <BoxContent>
+        <p className="details gap-between">
+          SQL Essential
+          <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1Vqa--EfHvUp41V-lsHkpjt8FLI4CJX7g/view?usp=sharing"
+            className="certificates-link"
+            id="sql"
+          >
+            Show Certificate
+          </a>
+        </p>
+      </BoxContent>
     </Box>
   );
 }

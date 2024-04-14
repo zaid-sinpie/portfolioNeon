@@ -1,3 +1,5 @@
+import '../css/info.css';
+
 export default function Info({}) {
   return (
     <div className="info border">

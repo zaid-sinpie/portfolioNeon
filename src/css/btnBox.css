@@ -1,0 +1,11 @@
+.btnBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+
+  @media only screen and (max-width: 430px) {
+  }

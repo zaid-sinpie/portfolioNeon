@@ -1,0 +1,7 @@
+.social-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    animation: 2s ease-out 0s 1 fadeIn;
+  }

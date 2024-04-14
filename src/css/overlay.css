@@ -1,0 +1,17 @@
+.overlay {
+    position: absolute;
+    z-index: 5;
+    backdrop-filter: blur(10px);
+    background: #141d337e;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    pointer-events: auto;
+  }
+
+  @media only screen and (max-width: 430px) {
+    .overlay{
+        height: 100%;
+    }
+  }

@@ -1,5 +1,6 @@
 import Box from "./Box.jsx";
 import BoxContent from "./BoxContent.jsx";
+import "../css/details.css";
 export default function Projects({ title1, title2 }) {
   return (
     <Box>
@@ -72,7 +73,7 @@ export default function Projects({ title1, title2 }) {
           </a>
         </p>
       </BoxContent>
-        <p className="details">
+        <p className="details detailsP">
         More projects are posted on Github <a target="_blank" href="https://github.com/zaid-sinpie"className="certificates-link">Check out</a>
         </p>
     </Box>

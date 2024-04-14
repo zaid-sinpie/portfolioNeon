@@ -1,0 +1,17 @@
+.details {
+    font-weight: bolder;
+    height: auto;
+    padding: 5px 10px;
+  }
+
+  @media only screen and (max-width: 430px) {
+    .detailsP{
+        font-size: .8rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .detailsP{
+      font-size: .8rem;
+  }
+  }

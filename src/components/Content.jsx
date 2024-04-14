@@ -3,6 +3,7 @@ import Skills from "./Skills.jsx";
 import Certificates from "./Certificates.jsx";
 import Projects from "./Projects.jsx";
 import UiDesigns from "./UiDesigns.jsx";
+import '../css/content.css';
 
 export default function Content({ name,modalState}) {
   return (

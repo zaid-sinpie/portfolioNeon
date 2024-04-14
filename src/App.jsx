@@ -48,7 +48,6 @@ function App() {
       <Content
         name="content border"
         modalState={modalState}
-        handleClick={() => handleClick()}
       ></Content>
       <Overlay
         overlayClass={

@@ -1,0 +1,17 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    background: rgba(49, 222, 233, 0.12);
+    animation: 1s ease-out 0s 1 slideInLeft;
+  }
+
+  @media only screen and (max-width: 430px) {
+    .info{
+        width: auto;
+    }
+  }

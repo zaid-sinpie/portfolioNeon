@@ -1,5 +1,5 @@
 import Buttons from "./Buttons.jsx";
-import React, { useRef } from "react";
+import "../css/btnBox.css";
 
 export default function BtnBox({ name }) {
   return (

@@ -2,28 +2,6 @@ body {
   position: relative;
 }
 
-.overlay {
-  position: absolute;
-  z-index: 5;
-  backdrop-filter: blur(10px);
-  background: #141d337e;
-  height: 100vh;
-  width: 100vw;
-  left: 0;
-  top: 0;
-  pointer-events: auto;
-}
-
-.first {
-  width: 100vw;
-  height: 100vh;
-  background: #141d33;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-}
-
 .circle {
   position: absolute;
   height: 400px;
@@ -46,17 +24,6 @@ body {
     rgba(49, 222, 233, 0.12) 0px -3px 5px;
 }
 
-.header {
-  height: auto;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: start;
-  gap: 50px;
-  animation: 1s ease-out 0s 1 slideInLeft;
-}
-
 .border {
   border-radius: 6px;
   border: 1.5px solid #31dee9;
@@ -64,15 +31,6 @@ body {
     rgba(49, 222, 233, 0.12) 0px -12px 30px,
     rgba(49, 222, 233, 0.12) 0px 4px 6px, rgba(49, 222, 233, 0.12) 0px 4px 6px,
     rgba(49, 222, 233, 0.12) 0px -3px 5px;
-}
-
-.btnBox {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  justify-content: start;
-  align-items: start;
-  gap: 10px;
 }
 
 .btn {
@@ -100,40 +58,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: auto;
-  background: rgba(49, 222, 233, 0.12);
-  animation: 1s ease-out 0s 1 slideInLeft;
-}
-
 .into {
   height: 120px;
   line-height: 20px;
 }
 
-.details {
-  font-weight: bolder;
-  height: auto;
-  padding: 5px 10px;
-}
-
 .no-border {
   border-radius: 0px;
   outline: none;
-}
-
-.social-content {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  width: 130px;
-  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 a::before {
@@ -191,40 +123,6 @@ i:active {
   color: #61e7a4;
 }
 
-.content {
-  height: 90vh;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  gap: 50px;
-  background: rgba(49, 222, 233, 0.1);
-  overflow-y: hidden;
-  overflow: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  animation: 1s ease-out 0s 1 slideInRight;
-}
-
-.content::-webkit-scrollbar {
-  display: none;
-}
-
-.box {
-  height: auto;
-  width: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background: rgba(49, 222, 233, 0.03);
-  gap: 10px;
-  padding-bottom: 10px;
-  border-radius: 6px;
-  border: 1.5px solid #31dee9;
-}
-
 .font--header {
   color: #31dee9;
   font-size: 1.5em;
@@ -262,16 +160,6 @@ i:active {
   border: 1.5px solid #31dee9;
 }
 
-.skill-arrange {
-  width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
 .certificates-link {
   text-decoration: none;
   padding: 5px 10px;
@@ -304,67 +192,6 @@ i:active {
 
 .ani {
   animation: 1s ease-out 0s 1 slideInRight;
-}
-
-.modal {
-  position: absolute;
-  height: 500px;
-  width: 700px;
-  left: 20.5rem;
-  top: 5rem;
-  background: rgba(49, 222, 233, 0.1);
-  gap: 10px;
-  padding-bottom: 10px;
-  border-radius: 6px;
-  border: 1.5px solid #31dee9;
-  z-index: 10;
-  backdrop-filter: blur(10px);
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-}
-
-.hidden {
-  display: none;
-}
-
-.ipt-box {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.ipt {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-input {
-  width: 250px;
-  padding: 10px;
-  border: 1.5px solid #31dee9;
-  border-radius: 6px;
-  outline: none;
-  background: rgba(49, 222, 233, 0.1);
-}
-
-label {
-  font-weight: bolder;
-  font-size: small;
-}
-
-textarea {
-  padding: 10px;
-  border: 1.5px solid #31dee9;
-  border-radius: 6px;
-  outline: none;
-  background: rgba(49, 222, 233, 0.1);
-  resize: none;
 }
 
 .certificate-modal {

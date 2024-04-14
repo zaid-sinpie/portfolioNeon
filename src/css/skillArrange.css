@@ -1,0 +1,17 @@
+.skill-arrange {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+
+  @media only screen and (max-width: 430px) {
+    .skill-arrange{
+        width: auto;
+        align-items: start;
+    }
+  }

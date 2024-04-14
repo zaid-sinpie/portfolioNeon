@@ -20,6 +20,17 @@ export default function Certificates({ title, modalState }) {
       </BoxContent>
       <BoxContent>
         <p className="details gap-between">
+          ReactJS
+          <a href="https://drive.google.com/file/d/11vPuubbyCnZoavLq2LX7zD7-mtsppST8/view?usp=sharing" target="_blank"
+            className="certificates-link"
+            id="reactjs"
+          >
+            Show Certificate
+          </a>
+        </p>
+      </BoxContent>
+      <BoxContent>
+        <p className="details gap-between">
           MongoDB
           <a target="_blank"
           href="https://drive.google.com/file/d/1kaxO4eVMcrqam6sCLSku_-JKXUhx1LCe/view?usp=sharing"

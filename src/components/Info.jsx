@@ -1,4 +1,4 @@
-import '../css/info.css';
+import "../css/info.css";
 
 export default function Info({}) {
   return (
@@ -11,10 +11,11 @@ export default function Info({}) {
         </p>
       </div>
       <p className="details">
-        - I’m a 2023 Pass out Electronics Engineer.<br></br>- I’m a UI/UX
-        designer & Front end Developer.<br></br>- I have completed multiple
-        front end projects.<br></br>- I also have hands on practice over IOT
-        devices.<br></br>
+        - Frontend Developer with passion for UI/UX design & frontend
+        development.<br></br>- Seeking opportunity in Frontend development &
+        UI/UX designing.<br></br>- I have hands on expeirence in developing web
+        applications and websites using reactJS and vanilla JS.<br></br>
+        - For more information, you can contact me.
       </p>
     </div>
   );

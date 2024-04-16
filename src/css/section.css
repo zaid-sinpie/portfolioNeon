@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background: #141d33;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #141d337e 100%);
+  /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #141d337e 100%); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,31 +11,20 @@
 
 @media only screen and (max-width: 430px) {
   .first {
+    display: flex;
     flex-direction: column;
-    height: auto;
-    justify-content: start;
     align-items: start;
-    height: 100%;
-  }
-  .circle {
-    left: 0;
-    height: 200px;
-    width: 200px;
+    justify-content: start;
+    height: fit-content;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 540px) {
   .first {
-    /* flex-direction: column; */
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: start;
-    width: fit-content;
-    gap: 10px;
-  }
-}
-@media only screen and (max-width: 820px) {
-  .first {
-    /* flex-direction: column; */
-    align-items: center;
+    width: 100%;
+    height: auto;
   }
 }

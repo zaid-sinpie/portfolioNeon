@@ -1,5 +1,5 @@
 import Buttons from "./Buttons.jsx";
-import "../css/btnBox.css";
+import '../css/btnBox.css';
 
 export default function BtnBox({ name }) {
   return (

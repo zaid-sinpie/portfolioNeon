@@ -1,7 +1,7 @@
 import BoxContent from "./BoxContent.jsx";
 import Box from "./Box.jsx";
 
-export default function Certificates({ title, modalState }) {
+export default function Certificates({ title }) {
   return (
     <Box>
       <div className="invi">

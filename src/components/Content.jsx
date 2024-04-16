@@ -5,7 +5,7 @@ import Projects from "./Projects.jsx";
 import UiDesigns from "./UiDesigns.jsx";
 import '../css/content.css';
 
-export default function Content({ name,modalState}) {
+export default function Content({ name}) {
   return (
     <main className={name}>
       <Education title={"EDUCATION"} />
@@ -14,7 +14,7 @@ export default function Content({ name,modalState}) {
         title1={"INTERPERSONAL SKILLS"}
         title2={"LANGUAGES"}
       />
-      <Certificates title={"CERTIFICATIONS"} modalState={modalState}></Certificates>
+      <Certificates title={"CERTIFICATIONS"}></Certificates>
       <Projects title1={"FRONTEND PROJECTS"} title2={"IOT PROJECTS"}></Projects>
       <UiDesigns title={"UI DESIGNS"}></UiDesigns>
     </main>

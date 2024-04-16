@@ -10,3 +10,8 @@
     border-radius: 6px;
     border: 1.5px solid #31dee9;
   }
+  @media only screen and (max-width: 430px) {
+    .content-box{
+        width: 95%;
+    }
+  }  

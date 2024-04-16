@@ -8,4 +8,14 @@
   }
 
   @media only screen and (max-width: 430px) {
+    .btnBox {
+        width: 100vw;
+        margin-top: 1rem;
+      }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .btnBox{
+      width: auto;
+    }
   }

@@ -1,4 +1,4 @@
-import '../css/boxContent.css';
+import '../css/contentBox.css';
 export default function BoxContent({children ,id = undefined}){
     return (
         <div className="content-box" id={id}>{children}</div>

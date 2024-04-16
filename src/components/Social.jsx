@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal.jsx";
 import Overlay from "./Overlay.jsx"; // Import the Overlay component
-import '../css/socialContent.css';
 
 export default function Social() {
   const [modalVisible, setModalVisible] = useState(false);

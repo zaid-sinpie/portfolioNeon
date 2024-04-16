@@ -1,7 +1,5 @@
 import Box from "./Box.jsx";
 import BoxSkill from "./BoxSkill.jsx";
-import '../css/skillArrange.css';
-
 export default function Skills({ title ,title1, title2, name}) {
   return (
     <Box className={name}>

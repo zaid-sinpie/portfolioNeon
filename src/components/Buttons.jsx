@@ -1,4 +1,4 @@
-export default function Buttons({children, name, select, type, id='undefined'}){
+export default function Buttons({children, name, select, id='undefined'}){
     return (
         <button className={name} onClick={select} id={id}>
             {children}

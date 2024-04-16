@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   background: #141d33;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #141d337e 100%);
   display: flex;
   justify-content: space-around;
   align-items: center;

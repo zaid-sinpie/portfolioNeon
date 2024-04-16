@@ -258,66 +258,7 @@ i:active {
   animation: 1s ease-out 0s 1 slideInRight;
 }
 
-.modal {
-  position: absolute;
-  height: 500px;
-  width: 700px;
-  left: 20.5rem;
-  top: 5rem;
-  background: rgba(49, 222, 233, 0.1);
-  gap: 10px;
-  padding-bottom: 10px;
-  border-radius: 6px;
-  border: 1.5px solid #31dee9;
-  z-index: 10;
-  backdrop-filter: blur(10px);
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-}
 
-.hidden {
-  display: none;
-}
-
-.ipt-box {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.ipt {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-input {
-  width: 250px;
-  padding: 10px;
-  border: 1.5px solid #31dee9;
-  border-radius: 6px;
-  outline: none;
-  background: rgba(49, 222, 233, 0.1);
-}
-
-label {
-  font-weight: bolder;
-  font-size: small;
-}
-
-textarea {
-  padding: 10px;
-  border: 1.5px solid #31dee9;
-  border-radius: 6px;
-  outline: none;
-  background: rgba(49, 222, 233, 0.1);
-  resize: none;
-}
 
 .certificate-modal {
   height: auto;

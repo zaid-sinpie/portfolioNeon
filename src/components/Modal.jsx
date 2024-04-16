@@ -2,6 +2,7 @@ import React from "react";
 import Buttons from "./Buttons.jsx";
 import {useState} from 'react';
 import { toast } from "react-toastify";
+import '../css/modal.css';
 
 export default function Modal({ visible }) {
     const [name, setName] = useState('')
@@ -53,11 +54,11 @@ export default function Modal({ visible }) {
       <div className="ipt-box">
         <div className="ipt">
           <label htmlFor="p-name">NAME</label>
-          <input id="p-name" type="text" required onChange={handleNameChange}/>
+          <input autoComplete="off" id="p-name" type="text" required onChange={handleNameChange}/>
         </div>
         <div className="ipt">
           <label htmlFor="p-email">EMAIL</label>
-          <input id="p-email" type="email" required onChange={handleEmailChange}/>
+          <input autoComplete="off" id="p-email" type="email" required onChange={handleEmailChange}/>
         </div>
       </div>
       <div className="ipt">

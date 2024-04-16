@@ -5,11 +5,7 @@ export default function Overlay({ overlayClass }) {
     <div className={overlayClass}>
       <div id="stars"></div>
       <div id="stars2"></div>
-      <div id="stars3">
-            <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        </div>
+      <div id="stars3"></div>
     </div>
   );
 }

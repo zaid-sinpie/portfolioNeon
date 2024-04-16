@@ -1,25 +1,26 @@
 .content {
-    height: 90vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 50px;
-    background: rgba(49, 222, 233, 0.1);
-    overflow-y: hidden;
-    overflow: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    animation: 1s ease-out 0s 1 slideInRight;
-  }
-  
-  .content::-webkit-scrollbar {
-    display: none;
-  }
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+  background: rgba(49, 222, 233, 0.1);
+  overflow-y: hidden;
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  animation: 1s ease-out 0s 1 slideInRight;
+}
 
-  @media only screen and (max-width: 430px) {
-    .content {
-      width: 100%;
-    }
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 412px) {
+  .content {
+    width: 100%;
+    overflow: auto;
   }
+}

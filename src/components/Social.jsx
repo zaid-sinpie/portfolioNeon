@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal.jsx";
 import Overlay from "./Overlay.jsx"; // Import the Overlay component
+import "../css/btnsCR.css";
 
 export default function Social() {
   const [modalVisible, setModalVisible] = useState(false);
@@ -30,6 +31,7 @@ export default function Social() {
 
   return (
     <div className="social-content">
+      <div className="btnsCR">
       <button
         id="contactBtn"
         className="btn border font no-border"
@@ -37,6 +39,10 @@ export default function Social() {
       >
         CONTACT
       </button>
+      <a href="https://drive.google.com/file/d/1BBUrAyKGMco0k65xsjOO7rap21jcR7Lc/view?usp=sharing" target="_blank">
+        <button className="btn border font no-border">RESUME</button>
+      </a>
+      </div>
       <div className="links">
         <a
           className="link"

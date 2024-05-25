@@ -3,9 +3,10 @@ import Skills from "./Skills.jsx";
 import Certificates from "./Certificates.jsx";
 import Projects from "./Projects.jsx";
 import UiDesigns from "./UiDesigns.jsx";
-import '../css/content.css';
+import Form from "./Form.jsx";
+import "../css/content.css";
 
-export default function Content({ name}) {
+export default function Content({ name }) {
   return (
     <main className={name}>
       <Education title={"EDUCATION"} />
@@ -17,6 +18,7 @@ export default function Content({ name}) {
       <Certificates title={"CERTIFICATIONS"}></Certificates>
       <Projects title1={"FRONTEND PROJECTS"} title2={"IOT PROJECTS"}></Projects>
       <UiDesigns title={"UI DESIGNS"}></UiDesigns>
+      <Form />
     </main>
   );
 }

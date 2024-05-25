@@ -12,22 +12,21 @@
   border: 1.5px solid #31dee9;
 }
 
-
 @media only screen and (max-width: 1280px) {
-  .box{
+  .box {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .box{
+  .box {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 430px) {
-  .box{
-      width: 100%;
-      align-items: center;
+  .box {
+    width: 100%;
+    align-items: center;
   }
 }

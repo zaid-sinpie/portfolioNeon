@@ -258,8 +258,6 @@ i:active {
   animation: 1s ease-out 0s 1 slideInRight;
 }
 
-
-
 .certificate-modal {
   height: auto;
   width: 700px;
@@ -292,14 +290,13 @@ i:active {
   }
 }
 
-
 @media only screen and (max-width: 375px) {
-  .details{
+  .details {
     font-size: small;
   }
 }
-@media only screen and (max-width: 768px) and (min-width:760px) {
-  .details{
+@media only screen and (max-width: 768px) and (min-width: 760px) {
+  .details {
     font-size: small;
   }
 }

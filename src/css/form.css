@@ -1,0 +1,51 @@
+.modal {
+  padding: 20px 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  background: rgba(49, 222, 233, 0.03);
+  gap: 10px;
+  border-radius: 6px;
+  border: 1.5px solid #31dee9;
+}
+
+.ipt-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: center;
+  width: 15rem;
+}
+
+.ipt {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: auto;
+}
+
+input {
+  width: auto;
+  padding: 10px;
+  border: 1.5px solid #31dee9;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  background: rgba(49, 222, 233, 0.1);
+}
+
+label {
+  font-weight: bolder;
+  font-size: small;
+}
+
+textarea {
+  padding: 10px;
+  border: 1.5px solid #31dee9;
+  border-radius: 6px;
+  outline: none;
+  background: rgba(49, 222, 233, 0.1);
+  width: 100%;
+}

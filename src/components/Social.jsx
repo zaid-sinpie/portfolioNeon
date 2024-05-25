@@ -1,47 +1,15 @@
-import React, { useState, useEffect } from "react";
-import Modal from "./Modal.jsx";
-import Overlay from "./Overlay.jsx"; // Import the Overlay component
 import "../css/btnsCR.css";
 
 export default function Social() {
-  const [modalVisible, setModalVisible] = useState(false);
-
-  const handleContactButtonClick = () => {
-    setModalVisible(true);
-  };
-
-  const closeModal = () => {
-    setModalVisible(false);
-  };
-
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.keyCode === 27 && modalVisible) {
-        closeModal();
-      }
-    };
-
-    document.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      document.querySelector(".overlay").addEventListener("click", closeModal);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [modalVisible]);
-
   return (
     <div className="social-content">
       <div className="btnsCR">
-      <button
-        id="contactBtn"
-        className="btn border font no-border"
-        onClick={handleContactButtonClick}
-      >
-        CONTACT
-      </button>
-      <a href="https://drive.google.com/file/d/1BBUrAyKGMco0k65xsjOO7rap21jcR7Lc/view?usp=sharing" target="_blank">
-        <button className="btn border font no-border">RESUME</button>
-      </a>
+        <a
+          href="https://drive.google.com/file/d/1BBUrAyKGMco0k65xsjOO7rap21jcR7Lc/view?usp=sharing"
+          target="_blank"
+        >
+          <button className="btn border font no-border">RESUME</button>
+        </a>
       </div>
       <div className="links">
         <a
@@ -73,8 +41,6 @@ export default function Social() {
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
-      {modalVisible && <Overlay overlayClass="overlay" />}
-      <Modal visible={modalVisible} closeModal={closeModal} />
     </div>
   );
 }

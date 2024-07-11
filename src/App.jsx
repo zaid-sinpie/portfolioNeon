@@ -14,7 +14,7 @@ function App() {
     <Section>
       <ToastContainer />
       <Header name="header">
-        <BtnBox name="btnBox" />
+        {/* <BtnBox name="btnBox" /> */}
         <Info />
         <Social />
       </Header>

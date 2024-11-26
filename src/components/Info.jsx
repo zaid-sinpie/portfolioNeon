@@ -1,4 +1,4 @@
-import '../css/info.css';
+import "../css/info.css";
 export default function Info({}) {
   return (
     <div className="info border">
@@ -10,11 +10,10 @@ export default function Info({}) {
         </p>
       </div>
       <p className="details">
-        - Frontend Developer with passion for UI/UX design & frontend
-        development.<br></br>- Seeking opportunity in Frontend development &
-        UI/UX designing.<br></br>- I have hands on expeirence in developing web
-        applications and websites using reactJS and vanilla JS.<br></br>
-        - For more information, you can contact me.
+        "As a passionate web developer and MERN stack expert, I create dynamic,
+        full-stack web applications with a focus on seamless user experiences.
+        My dedication to UI/UX design ensures that each project is intuitive,
+        responsive, and aesthetically engaging".
       </p>
     </div>
   );

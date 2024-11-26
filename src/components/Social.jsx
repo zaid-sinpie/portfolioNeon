@@ -5,7 +5,7 @@ export default function Social() {
     <div className="social-content">
       <div className="btnsCR">
         <a
-          href="https://drive.google.com/file/d/1lmAyup6zr8xizod5GAs5aV2H4FS6gVry/view?usp=sharing"
+          href="https://docs.google.com/document/d/1-d5aB_EMm4gD8xPXYXSvfXlWjt6nbNygVN5VhpCcOgA/edit?usp=sharing"
           target="_blank"
         >
           <button className="btn border font no-border">RESUME</button>

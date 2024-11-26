@@ -1,5 +1,5 @@
 .modal {
-  padding: 20px 2rem;
+  padding: 20px 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,12 +35,12 @@
 }
 
 input {
-  width: auto;
+  width: -webkit-fill-available;
   padding: 10px;
   border: 1.5px solid #31dee9;
   border-radius: 6px;
   outline: none;
-  width: 100%;
+  width: -webkit-fill-available;
   background: rgba(49, 222, 233, 0.1);
 }
 
@@ -55,7 +55,8 @@ textarea {
   border-radius: 6px;
   outline: none;
   background: rgba(49, 222, 233, 0.1);
-  width: 100%;
+  width: -webkit-fill-available;
+  resize: vertical;
 }
 
 @media only screen and (min-width: 600px) {

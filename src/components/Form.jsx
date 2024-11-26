@@ -51,42 +51,39 @@ const Form = () => {
 
   return (
     <form className="modal" onSubmit={handleSubmit}>
-      <div className="invi">
-        <h2 className="font--header">CONTACT</h2>
+      <h2 className="font--header">CONTACT</h2>
+      {/* <div className="ipt-box"> */}
+      <div className="ipt">
+        <label htmlFor="p-name">NAME</label>
+        <input
+          autoComplete="off"
+          id="p-name"
+          type="text"
+          required
+          onChange={handleNameChange}
+        />
       </div>
-      <div className="ipt-box">
-        <div className="ipt">
-          <label htmlFor="p-name">NAME</label>
-          <input
-            autoComplete="off"
-            id="p-name"
-            type="text"
-            required
-            onChange={handleNameChange}
-          />
-        </div>
-        <div className="ipt">
-          <label htmlFor="p-email">EMAIL</label>
-          <input
-            autoComplete="off"
-            id="p-email"
-            type="email"
-            required
-            onChange={handleEmailChange}
-          />
-        </div>
-        <div className="ipt">
-          <label htmlFor="message">MESSAGE</label>
-          <textarea
-            name=""
-            id="message"
-            cols=""
-            rows=""
-            required
-            onChange={handleMessageChange}
-          ></textarea>
-        </div>
+      <div className="ipt">
+        <label htmlFor="p-email">EMAIL</label>
+        <input
+          autoComplete="off"
+          id="p-email"
+          type="email"
+          required
+          onChange={handleEmailChange}
+        />
       </div>
+      <div className="textArea">
+        <label htmlFor="message">MESSAGE</label>
+        <textarea
+          name=""
+          id="message"
+          rows="5"
+          required
+          onChange={handleMessageChange}
+        ></textarea>
+      </div>
+      {/* </div> */}
 
       <Buttons id="submitBtn" name="btn border font">
         SUBMIT

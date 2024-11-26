@@ -43,34 +43,42 @@ export const technicalSkills = [
   },
   {
     id: 11,
-    skill: "AJAX",
+    skill: "SQL",
   },
   {
     id: 12,
-    skill: "OOP",
+    skill: "MongoDB",
   },
   {
     id: 13,
-    skill: "Figma",
+    skill: "AJAX",
   },
   {
     id: 14,
-    skill: "UI/UX",
+    skill: "OOP",
   },
   {
     id: 15,
-    skill: "Git/Github",
+    skill: "Figma",
   },
   {
     id: 16,
-    skill: "Media Query",
+    skill: "UI/UX",
   },
   {
     id: 17,
-    skill: "Responsive Designing",
+    skill: "Git/Github",
   },
   {
     id: 18,
+    skill: "Media Query",
+  },
+  {
+    id: 19,
+    skill: "Responsive Designing",
+  },
+  {
+    id: 20,
     skill: "IOT",
   },
 ];
